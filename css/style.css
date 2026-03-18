@@ -1,0 +1,53 @@
+
+
+/* style.css */
+
+h1 {
+    color: rgb(138, 3, 3);
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgba(235, 144, 144, 0.89);
+}
+
+/* Selector de etiqueta: Pinta el fondo de TODO el <main> */
+main {
+    background-color: #056eaa;
+    padding: 20px;
+}
+
+/* Selector de clase: Solo afecta al párrafo con class="texto-destacado" */
+.texto-destacado {
+    color: #ff5722;
+    font-weight: bold;
+}
+
+/* Selector de ID: Solo afecta a la barra de navegación con id="menu-principal" */
+#menu-principal {
+    background-color: #333;
+    padding: 10px;
+}
+
+/* TIPOGRAFIA */
+.titulo {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,1);
+}
+
+
+/* EJEMPLO MODELO CAJA */
+
+.tarjeta-proyecto {
+    background-color: white;
+    padding: 20px;
+    /* Espacio interior para que el texto respire */
+    margin: 15px;
+    /* Separación con otras tarjetas */
+    border-radius: 12px;
+    /* Esquinas redondeadas suaves */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* Efecto de tarjeta flotante */
+}
